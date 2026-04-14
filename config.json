@@ -1,0 +1,42 @@
+{
+  "ios": {
+    "enabled": true,
+    "minVersion": "1.0.36",
+    "latestVersion": "1.0.36",
+    "storeDeepLink": "itms-apps://apps.apple.com/app/id6749572182",
+    "storeWebUrl": "https://apps.apple.com/app/id6749572182",
+    "messages": {
+      "critical": {
+        "title": "Необходимо обновление",
+        "description": "Для продолжения работы\nпожалуйста обновите приложение",
+        "updateLabel": "Обновить"
+      },
+      "optional": {
+        "title": "Доступно обновление",
+        "description": "Пожалуйста обновите приложение\nдо последней версии",
+        "updateLabel": "Обновить",
+        "laterLabel": "Позже"
+      }
+    }
+  },
+  "android": {
+    "enabled": true,
+    "minVersion": "1.0.36",
+    "latestVersion": "1.0.36",
+    "storeDeepLink": "market://details?id=com.goldtech.goldline",
+    "storeWebUrl": "https://play.google.com/store/apps/details?id=com.goldtech.goldline&pli=1",
+    "messages": {
+      "critical": {
+        "title": "Необходимо обновление",
+        "description": "Для продолжения работы\nпожалуйста обновите приложение",
+        "updateLabel": "Обновить"
+      },
+      "optional": {
+        "title": "Доступно обновление",
+        "description": "Пожалуйста обновите приложение\nдо последней версии",
+        "updateLabel": "Обновить",
+        "laterLabel": "Позже"
+      }
+    }
+  }
+}
