@@ -22,7 +22,7 @@
   "android": {
     "enabled": true,
     "minVersion": "1.0.36",
-    "latestVersion": "1.0.36",
+    "latestVersion": "1.0.38",
     "storeDeepLink": "market://details?id=com.goldtech.goldline",
     "storeWebUrl": "https://play.google.com/store/apps/details?id=com.goldtech.goldline&pli=1",
     "messages": {
