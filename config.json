@@ -1,7 +1,7 @@
 {
   "ios": {
     "enabled": true,
-    "minVersion": "1.0.37",
+    "minVersion": "1.0.39",
     "latestVersion": "1.0.39",
     "storeDeepLink": "itms-apps://apps.apple.com/app/id6749572182",
     "storeWebUrl": "https://apps.apple.com/app/id6749572182",
@@ -21,7 +21,7 @@
   },
   "android": {
     "enabled": true,
-    "minVersion": "1.0.37",
+    "minVersion": "1.0.39",
     "latestVersion": "1.0.39",
     "storeDeepLink": "market://details?id=com.goldtech.goldline",
     "storeWebUrl": "https://play.google.com/store/apps/details?id=com.goldtech.goldline&pli=1",
