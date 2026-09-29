@@ -3,7 +3,7 @@
   "ios": {
     "enabled": true,
     "minVersion": "1.0.44",
-    "latestVersion": "1.1.5",
+    "latestVersion": "1.1.9",
     "storeDeepLink": "itms-apps://apps.apple.com/app/id6749572182",
     "storeWebUrl": "https://apps.apple.com/app/id6749572182",
     "messages": {
@@ -46,7 +46,7 @@
         "ios": {
           "enabled": true,
           "minVersion": "1.0.44",
-          "latestVersion": "1.1.6",
+          "latestVersion": "1.1.9",
           "messages": {
             "critical": {
               "title": "Необходимо обновление",
@@ -81,12 +81,52 @@
         }
       }
     },
+    "aurumline": {
+      "platforms": {
+        "ios": {
+          "enabled": true,
+          "minVersion": "1.0.0",
+          "latestVersion": "1.0.68",
+          "messages": {
+            "critical": {
+              "title": "Необходимо обновление",
+              "description": "Для продолжения работы\nпожалуйста обновите приложение",
+              "updateLabel": "Обновить"
+            },
+            "optional": {
+              "title": "Доступно обновление",
+              "description": "Пожалуйста обновите приложение\nдо последней версии",
+              "updateLabel": "Обновить",
+              "laterLabel": "Позже"
+            }
+          }
+        },
+        "android": {
+          "enabled": true,
+          "minVersion": "1.0.0",
+          "latestVersion": "1.0.68",
+          "messages": {
+            "critical": {
+              "title": "Необходимо обновление",
+              "description": "Для продолжения работы\nпожалуйста обновите приложение",
+              "updateLabel": "Обновить"
+            },
+            "optional": {
+              "title": "Доступно обновление",
+              "description": "Пожалуйста обновите приложение\nдо последней версии",
+              "updateLabel": "Обновить",
+              "laterLabel": "Позже"
+            }
+          }
+        }
+      }
+    },
     "aurumlight": {
       "platforms": {
         "ios": {
           "enabled": true,
           "minVersion": "1.0.0",
-          "latestVersion": "1.1.6",
+          "latestVersion": "1.1.9",
           "messages": {
             "critical": {
               "title": "Необходимо обновление",
@@ -126,7 +166,7 @@
         "ios": {
           "enabled": true,
           "minVersion": "1.0.0",
-          "latestVersion": "1.1.6",
+          "latestVersion": "1.1.9",
           "messages": {
             "critical": {
               "title": "Необходимо обновление",
@@ -166,7 +206,29 @@
         "ios": {
           "enabled": true,
           "minVersion": "1.0.0",
-          "latestVersion": "1.1.7",
+          "latestVersion": "1.1.9",
+          "messages": {
+            "critical": {
+              "title": "Необходимо обновление",
+              "description": "Для продолжения работы\nпожалуйста обновите приложение",
+              "updateLabel": "Обновить"
+            },
+            "optional": {
+              "title": "Доступно обновление",
+              "description": "Пожалуйста обновите приложение\nдо последней версии",
+              "updateLabel": "Обновить",
+              "laterLabel": "Позже"
+            }
+          }
+        }
+      }
+    },
+    "offlabel": {
+      "platforms": {
+        "ios": {
+          "enabled": true,
+          "minVersion": "1.0.0",
+          "latestVersion": "1.1.9",
           "messages": {
             "critical": {
               "title": "Необходимо обновление",

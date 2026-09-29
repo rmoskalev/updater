@@ -10,7 +10,7 @@ const config = JSON.parse(
 const legacyIos = {
   enabled: true,
   minVersion: "1.0.44",
-  latestVersion: "1.1.5",
+  latestVersion: "1.1.9",
   storeDeepLink: "itms-apps://apps.apple.com/app/id6749572182",
   storeWebUrl: "https://apps.apple.com/app/id6749572182",
   messages: {
@@ -79,22 +79,30 @@ test("updater publishes the v2 brand policy matrix while preserving Goldline roo
   assert.equal(config.schemaVersion, 2);
   assert.deepEqual(Object.keys(config.brands).sort(), [
     "aurumlight",
+    "aurumline",
     "faceconcept",
     "goldline",
+    "offlabel",
     "vozrastanet",
   ]);
   assert.deepEqual(config.brands, {
     goldline: {
-      platforms: { ios: policy("1.0.44", "1.1.6"), android: policy("1.0.44", "1.1.6") },
+      platforms: { ios: policy("1.0.44", "1.1.9"), android: policy("1.0.44", "1.1.6") },
+    },
+    aurumline: {
+      platforms: { ios: policy("1.0.0", "1.0.68"), android: policy("1.0.0", "1.0.68") },
     },
     aurumlight: {
-      platforms: { ios: policy("1.0.0", "1.1.6"), android: policy("1.0.0", "1.1.6") },
+      platforms: { ios: policy("1.0.0", "1.1.9"), android: policy("1.0.0", "1.1.6") },
     },
     faceconcept: {
-      platforms: { ios: policy("1.0.0", "1.1.6"), android: policy("1.0.0", "1.1.6") },
+      platforms: { ios: policy("1.0.0", "1.1.9"), android: policy("1.0.0", "1.1.6") },
     },
     vozrastanet: {
-      platforms: { ios: policy("1.0.0", "1.1.7") },
+      platforms: { ios: policy("1.0.0", "1.1.9") },
+    },
+    offlabel: {
+      platforms: { ios: policy("1.0.0", "1.1.9") },
     },
   });
 });
