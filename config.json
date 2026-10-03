@@ -86,7 +86,7 @@
         "ios": {
           "enabled": true,
           "minVersion": "1.0.0",
-          "latestVersion": "1.0.68",
+          "latestVersion": "1.0.70",
           "messages": {
             "critical": {
               "title": "Необходимо обновление",
